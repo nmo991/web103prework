@@ -37,7 +37,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-👉🏿<img src='[https://drive.google.com/file/d/1oOKK8KttIchSnkz3Fq6PMYHNeDLo2YhX/view?usp=sharing](https://drive.google.com/file/d/1yCs7AbwFCFVHcHK5hVrG836Op_Bz9ZF0/view?usp=sharing)' title='Video Walkthrough' width='' alt='Video Walkthrough'/>
+👉🏿<a href="https://drive.google.com/file/d/1oOKK8KttIchSnkz3Fq6PMYHNeDLo2YhX/view?usp=drive_link"> Video Preview <a/>
 
 Video created with **QuickTime Player**
 
