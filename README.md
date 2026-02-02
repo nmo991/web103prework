@@ -1,16 +1,73 @@
-# React + Vite
+# WEB103 Prework - Creatorverse
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Submitted by: **Kaleab Alemu**
 
-Currently, two official plugins are available:
+About this web app: **Creatorverse is a web application that allows users to manage and showcase their favorite content creators. Users can browse a collection of creators, view detailed information about each one, and perform full CRUD (Create, Read, Update, Delete) operations on the creator database.**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Time spent: **15** hours
 
-## React Compiler
+## Required Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The following **required** functionality is completed:
 
-## Expanding the ESLint configuration
+- [x] **A logical component structure in React is used to create the frontend of the app**
+- [x] **At least five content creators are displayed on the homepage of the app**
+- [x] **Each content creator item includes their name, a link to their channel/page, and a short description of their content**
+- [x] **API calls use the async/await design pattern via Axios or fetch()**
+- [x] **Clicking on a content creator item takes the user to their details page, which includes their name, url, and description**
+- [x] **Each content creator has their own unique URL**
+- [x] **The user can edit a content creator to change their name, url, or description**
+- [x] **The user can delete a content creator**
+- [x] **The user can add a new content creator by entering a name, url, or description and then it is displayed on the homepage**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The following **optional** features are implemented:
+
+- [x] Picocss is used to style HTML elements
+- [x] The content creator items are displayed in a creative format, like cards instead of a list
+- [x] An image of each content creator is shown on their content creator card
+
+The following **additional** features are implemented:
+
+* [x] Responsive grid layout for creator cards
+* [x] Navigation bar with consistent styling across all pages
+* [x] Form validation for required fields
+* [x] Loading states for better user experience
+
+## Video Walkthrough
+
+Here's a walkthrough of implemented required features:
+
+👉🏿<img src='[https://drive.google.com/file/d/1oOKK8KttIchSnkz3Fq6PMYHNeDLo2YhX/view?usp=sharing](https://drive.google.com/file/d/1yCs7AbwFCFVHcHK5hVrG836Op_Bz9ZF0/view?usp=sharing)' title='Video Walkthrough' width='' alt='Video Walkthrough'/>
+
+Video created with **QuickTime Player**
+
+## Notes
+
+**Challenges encountered while building the app:**
+
+1. **Routing Issues**: Initially faced difficulties with React Router v6 implementation, particularly with dynamic routes (`/:id`) and ensuring proper navigation between pages.
+
+2. **Database Integration**: Setting up Supabase and establishing the connection required careful attention to environment variables and API key management.
+
+3. **Form State Management**: Managing form state across Create and Edit operations while maintaining data integrity presented challenges.
+
+4. **CSS Styling**: Getting PicoCSS properly integrated and styled required troubleshooting import statements and understanding Pico's class-based styling system.
+
+5. **CRUD Operations Synchronization**: Ensuring that Create, Update, and Delete operations immediately reflected in the UI without requiring page refreshes.
+
+**Features Implemented Beyond Requirements:**
+
+- **Loading States**: All async operations show loading indicators
+- **Error Handling**: Form validation and error messages for failed operations
+- **Responsive Design**: The application works well on mobile, tablet, and desktop
+- **Navigation Consistency**: Persistent navigation bar across all pages
+
+
+## How to Run This Project
+
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Set up your Supabase project and get API credentials
+4. Create a `.env` file with your Supabase URL and API key
+5. Run the development server: `npm run dev`
+6. Open http://localhost:5173 in your browser
